@@ -1,6 +1,6 @@
 import './projects.css';
 
-function Projects(){
+export function Projects(){
     return(
         <>
             <div>

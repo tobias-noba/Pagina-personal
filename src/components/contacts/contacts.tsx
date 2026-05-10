@@ -1,6 +1,6 @@
 import './contacts.css';
 
-function Contacts(){
+export function Contacts(){
     return(
         <>
             <h4>Mis contactos:</h4>
