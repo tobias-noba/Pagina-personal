@@ -1,6 +1,9 @@
 import './App.css';
 import { Home } from './components/home/home';
 import { NavBar } from './components/navBar/navBar';
+import { AboutMe } from './components/aboutMe/aboutMe';
+import { Projects } from './components/projects/projects';
+import { Contacts } from './components/contacts/contacts';
 
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
     <>
       <NavBar/>
       <Home/>
+      <AboutMe/>
+      <Projects/>
+      <Contacts/>
     </>
   )
 }
