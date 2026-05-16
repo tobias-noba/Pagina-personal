@@ -1,5 +1,28 @@
+.homeMain{
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.homeFoto{
+   align-content: flex-end;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.homeText{
+   align-content: flex-end;
+   align-items: center;
+   justify-content: space-around;
+    
+}
+
 .fotoTobiasNoba{
     height: 50vh;
     width: 50vh;
     border-radius: 30vh;
+
 }

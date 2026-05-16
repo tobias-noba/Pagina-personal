@@ -1,4 +1,4 @@
-.navbar{
+.navBar{
     height: 10vh;
     width: 100%;
     margin: 0;
@@ -7,6 +7,30 @@
     flex-direction: row;
     align-content: flex-end;
     align-items: center;
-    justify-content: space-evenly;
+    position: sticky;
+    border-bottom: 1px solid black;
+}
+
+.navBarLeft{
+    width: 100%;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.navBarRight{
+    width: 100%;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
     position: sticky;
 }
