@@ -16,7 +16,10 @@ export function Home(){
                     <h1>¡Hola, soy Tobias Noba!</h1>
                     <h4>Tecnico en informatica personal y profesional</h4>
                     <h4>Tecnico superior en desarrollo de software</h4>
-                    <button>Sobre mi</button>
+
+                    <div className='divBotonSobreMi'>
+                    <button className='botonSobreMi'>Sobre mi</button>
+                    </div>
                 </div>
             </div>
         </>

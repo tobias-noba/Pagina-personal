@@ -1,10 +1,12 @@
 .homeMain{
     height: 100vh;
     width: 100%;
-    display: inline-flex;
-    flex-direction: row;
-    align-content: flex-end;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(15,17,23,1);
+    color: rgba(226,232,240,1);
+    border-bottom: 0.2vh solid rgba(108,99,255,1);
 }
 
 .homeFoto{
@@ -13,16 +15,29 @@
    justify-content: space-around;
 }
 
-.homeText{
-   align-content: flex-end;
-   align-items: center;
-   justify-content: space-around;
-    
+.divBotonSobreMi{
+    display: flex;
+    justify-content: center;
+}
+
+.botonSobreMi{
+    height: 5vh;
+    width: 15vh;
+    border-radius: 2vh;
+    background-color: rgba(15,17,23,1);
+    border: 0.2vh solid rgba(108,99,255,1);
+    color: rgba(226,232,240,1);
 }
 
 .fotoTobiasNoba{
     height: 50vh;
     width: 50vh;
     border-radius: 30vh;
+    border: 0.5vh solid rgba(108,99,255,1);
+}
 
+h4{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    color: rgba(148,163,184,1);
 }
