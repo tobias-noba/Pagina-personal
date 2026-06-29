@@ -5,3 +5,7 @@ body{
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+div{
+    background-color: rgba(15,17,23,1);
+}

@@ -1,0 +1,6 @@
+.divProyectos{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(15,17,23,1);
+    border-bottom: 0.2vh solid rgba(108,99,255,1);
+}

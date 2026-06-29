@@ -25,6 +25,10 @@
     position: sticky;
 }
 
+h1{
+    margin: 0;
+}
+
 .navBarRight{
     width: 100%;
     margin: 0;

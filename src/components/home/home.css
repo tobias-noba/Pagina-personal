@@ -27,6 +27,7 @@
     background-color: rgba(15,17,23,1);
     border: 0.2vh solid rgba(108,99,255,1);
     color: rgba(226,232,240,1);
+    cursor: pointer;
 }
 
 .fotoTobiasNoba{

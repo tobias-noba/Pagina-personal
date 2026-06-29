@@ -4,8 +4,10 @@ import { ProjectCards } from './projectcards';
 export function Projects(){
     return(
         <>
-           <ProjectCards/>
-           <ProjectCards/>
+            <div className='divProyectos'>
+                <ProjectCards/>
+                <ProjectCards/>
+            </div>
         </>
     )
 }
