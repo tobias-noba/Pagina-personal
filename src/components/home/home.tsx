@@ -1,5 +1,6 @@
 import './home.css';
 import FotoCV from '../../../img/FotoCV.png';
+import {FaGithub, FaLinkedin} from "react-icons/fa";
 
 export function Home(){
     return(
@@ -17,8 +18,10 @@ export function Home(){
                     <h4>Tecnico en informatica personal y profesional</h4>
                     <h4>Tecnico superior en desarrollo de software</h4>
 
-                    <div className='divBotonSobreMi'>
-                    <button className='botonSobreMi'>Sobre mi</button>
+                    <div className='divBotones'>
+                        <button className='botonLinkedIn'><FaLinkedin className='iconos'></FaLinkedin></button>
+                        <button className='botonGitHub'><FaGithub className='iconos'></FaGithub></button>
+                        <button className='botonDescargarCV'>Descargar CV</button>
                     </div>
                 </div>
             </div>
