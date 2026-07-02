@@ -15,6 +15,36 @@
    justify-content: space-around;
 }
 
+.fotoTobiasNoba{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50vh;
+    border: 0.5vh solid rgba(108,99,255,1);
+}
+
+.homeText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h4Titulo{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    color: rgba(148,163,184,1);
+}
+
+.divTecnologias{
+    display: flex;
+    gap: 2vh;
+}
+
+.textoTecnologias{
+    padding: 1vh;
+    border: 0.2vh solid rgba(108,99,255,1);
+    border-radius: 2vh;
+}
+
 .divBotones{
     display: flex;
     justify-content: center;
@@ -72,17 +102,8 @@
     cursor: pointer;
     font-size: medium;
     gap: 8px;
+    text-decoration: none;
 }
 
-.fotoTobiasNoba{
-    height: 50vh;
-    width: 50vh;
-    border-radius: 50vh;
-    border: 0.5vh solid rgba(108,99,255,1);
-}
 
-h4{
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
-    color: rgba(148,163,184,1);
-}
+

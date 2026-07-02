@@ -14,14 +14,27 @@ export function Home(){
 
                 <div className='homeText'>
 
-                    <h1>¡Hola, soy Tobias Noba!</h1>
-                    <h4>Tecnico en informatica personal y profesional</h4>
-                    <h4>Tecnico superior en desarrollo de software</h4>
+                    <div>
+                        <h1>¡Hola, soy Tobias Noba!</h1>
+                        <h4 className='h4Titulo'>Tecnico en informatica personal y profesional</h4>
+                        <h4 className='h4Titulo'>Tecnico superior en desarrollo de software</h4>
+                    </div>
+
+                    <div className='divTecnologias'>
+                        <p className='textoTecnologias'>HTML/CSS</p>
+                        <p className='textoTecnologias'>JavaScript</p>
+                        <p className='textoTecnologias'>C++</p>
+                        <p className='textoTecnologias'>C#</p>
+                        <p className='textoTecnologias'>React</p>
+                        <p className='textoTecnologias'>Visual Studio</p>
+                        <p className='textoTecnologias'>Unity</p>
+                    </div>
+
 
                     <div className='divBotones'>
-                        <button className='botonLinkedIn'><FaLinkedin className='iconos'></FaLinkedin></button>
-                        <button className='botonGitHub'><FaGithub className='iconos'></FaGithub></button>
-                        <button className='botonDescargarCV'><FaDownload className='iconoDescarga'></FaDownload>Descargar CV</button>
+                        <a href='https://www.linkedin.com/in/tobias-salvador-noba-fioriti-480870345/' target='_blank' className='botonLinkedIn'><FaLinkedin className='iconos'></FaLinkedin></a>
+                        <a href='https://github.com/tobias-noba' target='_blank' className='botonGitHub'><FaGithub className='iconos'></FaGithub></a>
+                        <a href={`${import.meta.env.BASE_URL}CVTobiasS.NobaFioriti.pdf`} download="CVTobiasS.NobaFioriti.pdf" className='botonDescargarCV'><FaDownload className='iconoDescarga'></FaDownload>Descargar CV</a>
                     </div>
                 </div>
             </div>
